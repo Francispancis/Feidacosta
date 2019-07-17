@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+	text-transform: capitalize;
+	color: white;
+	background-image: url(../images/oceanside.jpg);
+    background-size: cover;
+    height: 250px;	
+    max-width: 100%;
+
+}
+
+body {
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	color: #7b98aa;
+	text-transform: uppercase;
+	margin: 0;
+
+}
+
+h1 {
+	font-size: 37px;
+    text-align: center;
+    margin: 0;
+    padding: 100px;
+
+}
+
+h2 {
+	font-size: 23px;
+
+}
+
+h3 {
+	font-size: 18px;
+
+}
+
+nav {
+	text-align: center;
+	padding: 20px;
+	margin: 20px;
+
+}
+
+nav a {
+	color: #7b98aa;
+	font-size: 16px;
+	margin: 40px;
+
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+	text-transform: initial;
+
+}
+
+.row {
+	display: flex;
+	flex-wrap: center;
+	text-align: center;
+	justify-content: space-around;
+	padding: 20px 20px;
+
+}
+
+img {
+	max-width: 100%;
+	padding: 5px;	
+}
+
+a {
+	text-decoration: none;
+
+}
+
+footer {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform: initial;
+	font-size: 15px;
+	text-align: center;
+	background-color: #fee193;
+	padding: 20px;
+
+}
+
+
+/*@media screen and (max-width: 1200px) {
+	.col-33-desktop {
+		width: 33.333333%;
+	}
+}*/
+
+@media screen and (max-width: 960px) {
+	.col-33-laptop {
+		width: 33.333333%;
+	}
+}
+
+@media screen and (max-width: 660px) {
+	.col-50-tablet {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.col-100-mobile {
+		width: 100%;
+	}
+}
+
+
